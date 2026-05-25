@@ -1,6 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
 import React, { useState, useEffect, useMemo } from 'react';
+import ReactDOM from 'react-dom/client'; 
 import {
     Shield, Heart, User, Activity, ChevronRight, RefreshCw,
     Search, AlertCircle, CheckCircle, Info, ArrowLeft, Brain,
@@ -531,6 +530,5 @@ export default function App() {
         </div>
     );
 }
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <App />
-)
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+
