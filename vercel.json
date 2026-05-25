@@ -1,3 +1,8 @@
-Framework: Vite
-Build: vite build
-Output: dist
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
