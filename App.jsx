@@ -1,3 +1,5 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import React, { useState, useEffect, useMemo } from 'react';
 import {
     Shield, Heart, User, Activity, ChevronRight, RefreshCw,
@@ -529,3 +531,6 @@ export default function App() {
         </div>
     );
 }
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <App />
+)
